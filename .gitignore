@@ -1,3 +1,11 @@
+# Leonida Legends — build outputs and kit files
+# The entry's own output folder (created by running main.ts).
+out/
+# The competition kit, unpacked beside the repository. It is reference
+# material, not part of the entry, and must never be committed.
 gta6-trophy-guide-01-kit/
 kit.tgz
-out/
+# Local tooling and editor noise.
+node_modules/
+.DS_Store
+*.log
